@@ -4,7 +4,7 @@ kubectl delete deployment es-client es-data es-master
 kubectl delete svc elasticsearch-client elasticsearch-master elasticsearch
 
 
-kubectl get svcod,deployment -o wide
+kubectl get svc,pod,deployment -o wide
 
 ```shell
 kubectl create -f es-master-svc.yaml
